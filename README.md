@@ -1,2 +1,3 @@
-# lexorank-in-ts
-Basic Lexorank Implementation in Typescript
+# Lexorank implementation
+
+- Algorithm used in Jira for maintaining user-defined order in database
