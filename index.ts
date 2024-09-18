@@ -105,17 +105,6 @@ export function sortRanks<T extends IRankable>(
     const rank1 = typeof item1 === "string" ? item1 : item1.rank;
     const rank2 = typeof item2 === "string" ? item2 : item2.rank;
     return rank1 > rank2 ? 1 : rank1 < rank2 ? -1 : 0;
-    // const maxLength = Math.max(rank1.length, rank2.length);
-
-    // for (let i = 0; i < maxLength; i++) {
-    //     const indexRank1 = getIndexFromChar(rank1[i] ?? getCharFromIndex(0));
-    //     const indexRank2 = getIndexFromChar(rank2[i] ?? getCharFromIndex(0));
-
-    //     if (indexRank1 !== indexRank2)
-    //         return indexRank1 - indexRank2 > 0 ? 1 : -1;
-    // }
-
-    // return 0;
 }
 
 /**
