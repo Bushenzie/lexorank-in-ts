@@ -93,7 +93,6 @@ export function getLastPossibleRankInItems<T extends IRankable>(items: T[]) {
     return lastPossibleRank;
 }
 
-
 /**
  * Function to sort by ranks
  *
